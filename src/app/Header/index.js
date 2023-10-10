@@ -13,6 +13,7 @@ export default function Header({ user, login, logout }) {
         <div className={styles["nav-right-group"]}>
           <Link href="/about">About</Link>
           <Link href="/hours">Hours</Link>
+          <Link href="/gallery">Meet Our Happy Tails</Link>
           <Link href="/contact">Contact</Link>
         </div>
       </nav>
