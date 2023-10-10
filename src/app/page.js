@@ -1,17 +1,12 @@
 import Image from "next/image";
-import ray from "./ray.svg";
+import ray from "../images/ray.svg";
 import styles from "./page.module.css";
-import Header from "./Header";
-import { Quicksand } from 'next/font/google';
 
-const quicksand = Quicksand({
-  subsets: ['latin'],
-})
 
 export default function Home() {
   return (
-    <main className={`${styles.main} ${quicksand.className}`}>
-      <Header/>
+    <main className={`${styles.main}`}>
+
       <Image src={ray} alt="Picture of a triangle" width={300} height={300} />
       <p>
         We pride ourselves in providing excellent care for your furry family
